@@ -1,0 +1,117 @@
+//Index
+
+
+@media screen and (max-width:992px) {
+  .footer{
+      flex-direction: column;
+  }
+  .footerItems {
+      flex-direction: column;
+  }
+}
+@media screen and (max-width:768px) {
+  .footerInf {
+      flex-direction: column;
+  }
+}
+
+//Tienda
+
+@media screen and (max-width: 1024px) {
+.gridTiendaMenu {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gridTiendaMenu {
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 75px 1fr;
+    grid-template-areas: "catalogo" "filtro" "productos";
+    .catalogo {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "catalogoItem1 catalogoItem1";
+      background-color: green;
+      .catalogoItem2 {
+        display: none;
+      }
+    }
+  }
+  
+  
+  .filtro {
+    grid-template-columns: 1fr 1fr;
+  }
+  .productosGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 576px) {
+  .gridTiendaMenu {
+    grid-template-rows: 75px 90px 1fr;
+  }
+  .filtro {
+    grid-template-columns: 1fr;
+  }
+  .productosGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+  //Nosotros
+
+@media screen and (max-width:992px) {
+    .gridEquipo{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+        grid-template-areas:
+        "objeto1 objeto2"
+        "inf1 inf2"
+        "objeto3 objeto4"
+        "inf3 inf4";
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .gridEquipo{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "objeto1 "
+        "objeto2 "
+        "objeto3"
+        "objeto4";
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .gridNosotros{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr 0.75fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    }
+}
+@media screen and (max-width:768px) {
+    .gridNosotros{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 3fr 0.75fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    }
+}
+
+//Staff
+
+//Contacto

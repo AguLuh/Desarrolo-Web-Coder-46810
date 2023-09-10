@@ -1,0 +1,132 @@
+.estiloContacto{
+    margin: 200px 0;
+    justify-content: center;
+}
+.estiloContacto2{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.divContacto{
+    height: 800px;
+    width: 500px;
+    background-color: rgb(219, 201, 143);
+    margin: 0 10px;
+    border-radius: 30px;
+}
+
+.formEstilo{
+    font-size: 20px;
+    background-color: #ffe5bc;
+    font-weight: bold;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 30px;
+}
+.estiloContacto .estiloFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    form {
+    padding: 25px 30px;
+    box-shadow: 0 0 20px rgba(101, 11, 11, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    height: 670px;
+    width: 340px;
+    background-color: #ffe5bc;
+    h2 {
+    color: #283629;
+    font-size: 35px;
+        }.estiloContacto .estiloFormulario form fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    p {
+    font-size: 15px;
+    font-weight: 500;
+    label {
+    color: #3a843f;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+    }
+    }
+    }
+}
+
+}
+.estiloContacto .estiloFormulario form fieldset input, .estiloContacto .estiloFormulario form fieldset textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-color: #662020;
+    border: 2px solid #891010;
+    color: #1e8525;
+    outline: none;    
+}
+.estiloContacto .estiloFormulario form fieldset .politicas {
+    display: flex;
+    label {
+    font-size: 10px;
+    margin-right: 5px;
+    }
+    
+}
+.estiloContacto .estiloFormulario form fieldset input::placeholder, .estiloContacto .estiloFormulario form fieldset textarea::placeholder {
+    color: #363428;
+}
+.estiloContacto .estiloFormulario form fieldset .botonForm input {
+    width: 100%;
+    font-size: 16px;
+    color: #0d0c0c;
+    border: 0;
+    border-radius: 25px;
+    background-color: #111110;
+    box-shadow: 0 0 20px rgba(3, 3, 3, 0.4);
+}
+.estiloContacto .estiloTelefono {
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    height: 800px;
+    width: 350px;
+    background-color: #ffe5bc;
+    div {
+    margin-bottom: 10px;
+    img {
+        height: 60px;
+        width: 60px;
+        margin-right: 10px;
+        margin-left: 10px;
+        }
+    }
+}
+
+.estiloContacto .estiloTelefono div p {
+    font-size: 15px;
+    span {
+    font-weight: 500;
+}
+}
+
+.estiloContacto .estiloTelefono div a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.estiloContacto .estiloTelefono .abc {
+    display: flex;
+}
+.estiloContacto .estiloTelefono .gif {
+    width: 100%;
+    margin: 25px 0;
+    object-fit: cover;
+    transform: rotateY(180deg);
+}

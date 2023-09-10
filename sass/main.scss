@@ -1,0 +1,13 @@
+@use 'partials/variables';
+
+@use 'base/reset';
+
+@use 'layout/headerFooter';
+
+@use 'pages/index';
+@use 'pages/tienda';
+@use 'pages/sobre';
+@use 'pages/staff';
+@use 'pages/contacto';
+
+@use 'responsive/mediaqueries';

@@ -1,437 +1,274 @@
 * {
-    padding: 0;
-    margin: 0; 
+  padding: 0;
+  margin: 0;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    background-color: rgb(246, 246, 246);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+body {
+  background-color: rgba(25, 189, 157, 0.748);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 *::-webkit-scrollbar {
-    background: #cfcfcf;
-    width: 6px;
+  background: #cfcfcf;
+  width: 6px;
 }
+
 *::-webkit-scrollbar-thumb {
-    background: #000000;
-    width: 5px;
-    border-radius: 6px;
-    opacity: 0.6;
+  background: #000000;
+  width: 5px;
+  border-radius: 6px;
+  opacity: 0.6;
 }
 
 /* Reset Bootstrap */
-
 h2 {
-    margin-bottom: unset;
+  margin-bottom: unset;
 }
 
 h3 {
-    margin-bottom: unset;
+  margin-bottom: unset;
 }
 
 img, svg {
-    vertical-align: unset;
+  vertical-align: unset;
 }
 
 ul {
-    margin-top: unset;
-    margin-bottom: unset;
-    padding-left: unset;
+  margin-top: unset;
+  margin-bottom: unset;
+  padding-left: unset;
 }
 
 p {
-    margin-top: unset;
-    margin-bottom: unset;
+  margin-top: unset;
+  margin-bottom: unset;
 }
 
-.menuTop{
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 1050;
-/*     background-color: #f0f0f0; */
+.row {
+  --bs-gutter-x: 0;
 }
-
-.navbar{
-    padding: 0;
-    width: 80vw;
-    margin: 0 auto;
-    justify-items: unset;
-}    
-.texto{
-    font-size: 20px;
-}
-.menu{
-        background-color: #894a4a;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-        padding: 15px 10px;
-        padding: 15px 10px;
-} 
-.menu3{
-    justify-content: flex-end;
-
-}
-.logo{
-    padding: 10px;
-}
-
-
-.menu img{
-    width: 50px;
-    height: 50px;
-}
-/*  carrousel css */
-.carouselHeader {
-    height: 650px;
-}
-
-.carouselSize {
-    height: 650px;
-}
-
-.carousel-item {
-    position: absolute;
-}
-
-.carouselImg {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.botonn{
-    margin-right: 20px;
-}
-
-.boton{
-    height: 45px;
-    width: 55px;
-    border-width: 2.5px;
-    border-style: solid;
-    border-color: #271a1a;
-}
-
-.navbar-toggler{
-    font-size: 20px;
-}
-.shopIndex {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-/*     margin-bottom: 100px; */
-}
-
-.cardIndex {
-    margin: 0 10px;
-    transition: 2s;
-}
-
-.cardIndex:hover {
-    transform: scale(1.1);
-}
-
-.cardIndex div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cardIndex a {
-    text-decoration: none;
-    color: black;
-}
-
-.cardIndex a div h5 {
-    font-size: 15px;
-}
-.nav-link{
-    padding-left: 20px;
-}
-
-.nav-link.active{
-    display: inline-block;
-}
-nav {
-    background-color: #321313;
-    color: rgb(236, 236, 236);
-    text-align: center;
-    padding: 0.5em;
-}
-
 
 main {
-    height: auto;
-/*     background-color: gray; */
+  height: auto;
+  /*     background-color: gray; */
 }
-
 
 .img-fluid {
-    max-width: 100%;
-    height: 200%;
-    justify-content: space-between;
-    flex-direction: row;
+  max-width: 100%;
+  height: 200%;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.footerStyle {
-    width: 100%;
-    height: auto;
-    background-color: #894a4a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px 0;
+section {
+  margin: 50px 0;
 }
 
-.footerStyle div {
-    margin-bottom: 20px;
-}
-
-.footerItems {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-
-.logoFooter p {
-    text-decoration: none;
-    font-size: 35px;
-    color: white;
-}
-.socialNet {
-    filter: invert(100%);
-    display: flex;
-    list-style: none;
-}
-
-.socialNet li {
-    margin: 5px;
-}
-
-.socialNet li img {
-    height: 25px;
-    width: 25px;
-}
-
-.footerInf {
-    display:flex;
-}
-
-.footerInf div {
-    margin: 0 20px;
-}
-
-.footerInf div p {
-    font-weight: 500;
-    font-size: 20px;
-    color: white;
-    margin: 15px 0;
-}
-
-.footerInf div ul {
-    list-style: none;
-}
-
-.footerInf div ul li {
-    margin: 15px 0;
-}
-
-.footerInf div ul li a {
-    color: white;
-    font-size: 15px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.footerInf div a {
-    color: white;
-    font-size: 15px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.payment {
-    margin: 10px;
-}
-
-.payment ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-.payment ul li {
-    margin: 0 5px;
-}
-
-.payment ul li img {
-    width: 40px;
-/*     height: 50px; */
-}
-.banner{
-    border-radius: 15px;
-}
-.specialSize {
-    object-fit: contain;
-    background-color: white;
-    height: 26px;
-    padding: 5px;
-    border-radius: 3px;
-    border: 1px solid black;
-}
-
-.copyRight {
-    margin: 10px;
-    color: white;
-    font-size: 15px;
-}
-     /* media query */
-@media screen and (max-width:992px) {
-    .footer{
-        flex-direction: column;
-    }
-    .footerItems {
-        flex-direction: column;
-    }
-}
-@media screen and (max-width:768px) {
-    .footerInf {
-        flex-direction: column;
-    }
-}
-/* pagina "inicio" */
-
-section{
-    margin: 50px 0;
-}
-
-.sectionImdex{
-    margin: 50px 0;
-}
-.presentacion{
-    display: inline-block;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.presentacion h2{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.item1{
-    background-color: #d2d2d2;
-}
-.textoPresentacion p{
-    font-size: 15px;
-}
-
-.item2{
-    background-color: #d2d2d2;
-    padding: 40px;
-}
-
-.item2 img{
-    width: 320px;
-    height: 410px;
-}
-
-.sizeText{
-    width: 500px;
-    height: 500px;
-    padding: 50px;
-}
-
-.item3{
-    background-color: #d2d2d2;
-}
-
-
-
-.item4{
-    background-color: #d2d2d2;
-    width: 400px;
-    height: 400px;
-    padding: 50px;
-    font-size: 15px;
-}
-
-@media screen and (max-width:992px) {
-    .presentacion{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width:992px) {
-    .item1, .item3{
-        margin: 10px 0;
-    }
-}
-
-/* pagina "Tienda" */
-
-.gridTienda {
-  display: grid;
-  grid-template-rows: 100px 1fr 143px;
-  grid-template-areas: "header" "main" "footer";
-  gap: 50px 0px;
-}
-.gridTienda .gridHeaderTienda {
-  grid-area: header;
-}
-.gridTienda .gridMainTienda {
-  grid-area: main;
-}
-.gridTienda .gridFooterTiedna {
-  grid-area: footer;
-}
-
-.gridMainTienda {
-  display: grid;
-  grid-template-columns: 1fr;
-/*grid-template-rows: 400px 1fr; */
-  gap: 50px 0px;
-}
-.gridMainTienda .titleTienda {
-  height: 400px;
+/* Header */
+.menuTop {
+  position: sticky;
   width: 100%;
-  display: grid;
-  align-items: end;
-  position: relative;
-  z-index: 1000;
+  top: 0;
+  z-index: 1050;
 }
-.gridMainTienda .titleTienda video {
+.menuTop .navbar {
+  padding: 0;
+  width: 80vw;
+  margin: 0 auto;
+  justify-items: unset;
+}
+.menuTop .navbar .logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.menuTop .navbar .logo img {
+  width: 50px;
+  height: 50px;
+}
+.menuTop .navbar div .texto {
+  font-size: 20px;
+}
+.menuTop .menu {
+  background-color: rgba(250, 251, 250, 0.931);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 15px 10px;
+  padding: 15px 10px;
+}
+.menuTop .botonMenu {
+  margin-right: 20px;
+}
+.menuTop .botonMenu .botonEstilo {
+  height: 45px;
+  width: 55px;
+  border-width: 2.5px;
+  border-style: solid;
+  border-color: #505050;
+}
+.menuTop .menu3 {
+  justify-content: flex-end;
+  font-size: 16px;
+}
+.menuTop .menu3 ul {
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.menuTop .menu3 ul li {
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.menuTop .menu3 ul li:hover {
+  background-color: rgb(217, 217, 217);
+}
+
+/* Footer */
+.footerStyle {
+  width: 100%;
+  height: auto;
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.footerStyle div {
+  margin-bottom: 20px;
+}
+.footerStyle .footerItems {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.footerStyle .footerItems .footerImg .logoFooter p {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+}
+.footerStyle .footerItems .footerImg .socialNet {
+  filter: invert(100%);
+  display: flex;
+  list-style: none;
+}
+.footerStyle .footerItems .footerImg .socialNet li {
+  margin: 5px;
+}
+.footerStyle .footerItems .footerImg .socialNet li img {
+  height: 25px;
+  width: 25px;
+}
+.footerStyle .footerItems .footerInf {
+  display: flex;
+}
+.footerStyle .footerItems .footerInf div {
+  margin: 0 20px;
+}
+.footerStyle .footerItems .footerInf div p {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin: 15px 0;
+}
+.footerStyle .footerItems .footerInf div ul {
+  list-style: none;
+}
+.footerStyle .footerItems .footerInf div ul li {
+  margin: 15px 0;
+}
+.footerStyle .footerItems .footerInf div ul li a {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footerStyle .footerItems .footerInf div a {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footerStyle .payment {
+  margin: 10px;
+}
+.footerStyle .payment ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.footerStyle .payment ul li {
+  margin: 0 5px;
+}
+.footerStyle .payment ul li a img {
+  width: 40px;
+}
+.footerStyle .banner {
+  border-radius: 15px;
+}
+.footerStyle .specialSize {
+  object-fit: contain;
+  background-color: white;
+  height: 26px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.footerStyle .copyRight {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+/*  carrousel css */
+/* .carouselHeader {
+    height: 650px;
+}
+ */
+.carouselSize {
+  height: 500px;
+}
+.carouselSize .carousel-item {
+  position: absolute;
+}
+.carouselSize .carouselImg {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  position: absolute;
 }
-.gridMainTienda .titleTienda .opacidad {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(24, 24, 24);
-  opacity: 0.5;
-  mix-blend-mode: overlay;
+
+.shopIndex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*     margin-bottom: 100px; */
 }
-.gridMainTienda .titleTienda div {
-  position: absolute;
-  padding-left: 10%;
+
+.cardIndex {
+  margin: 0 10px;
+  transition: 2s;
 }
-.gridMainTienda .titleTienda div h1 {
-  color: rgb(0, 0, 0);
-  font-weight: 600;
-  font-size: 40px;
+.cardIndex:hover {
+  transform: scale(1.1);
 }
-.gridMainTienda .titleTienda div p {
-  color: rgb(5, 5, 5);
-  font-size: 20px;
+.cardIndex div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardIndex a {
+  text-decoration: none;
+  color: black;
+}
+.cardIndex a div h5 {
+  font-size: 15px;
 }
 
 .gridTiendaMenu {
@@ -482,12 +319,12 @@ section{
   margin: 0;
   border-left: 1px solid #9c9c9c;
   border-bottom: 1px solid #9c9c9c;
-  color: white;
+  color: black;
+  background-color: white;
 }
 .gridTiendaMenu .catalogo .catalogoItem2 ul {
   list-style-type: none;
   margin: 0;
-  color: black;
 }
 .gridTiendaMenu .catalogo .catalogoItem2 ul li {
   padding-bottom: 10px;
@@ -530,10 +367,10 @@ section{
   border-radius: 10px;
   border: 2px solid rgba(52, 52, 52, 0.2);
 }
-.productosGrid .productosEstilo a {
+.productosGrid a {
   text-decoration: none;
 }
-.productosGrid .productosEstilo img {
+.productosGrid img {
   object-fit: contain;
   height: 250px;
   width: 100%;
@@ -541,11 +378,11 @@ section{
   padding-bottom: 15px;
   margin-bottom: 10px;
 }
-.productosGrid .productosEstilo h2 {
+.productosGrid h2 {
   font-size: 15px;
   color: black;
 }
-.productosGrid .productosEstilo p {
+.productosGrid p {
   font-size: 15px;
   color: rgb(34, 34, 34);
 }
@@ -555,30 +392,297 @@ section{
 .productosGrid .producto1:hover {
   transform: scale(1.1);
 }
+
+.mainInf {
+  margin: 50px 0;
+}
+.mainInf .infSection {
+  display: flex;
+  justify-content: center;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+}
+.mainInf .infText {
+  background-color: #d2d2d2;
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  font-size: 14px;
+}
+.mainInf .infText h2 {
+  font-size: 25px;
+}
+.mainInf .mapa {
+  width: 500px;
+  height: 500px;
+}
+.mainInf .mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.titleStaff {
+  height: 400px;
+  width: 100%;
+  display: grid;
+  align-items: end;
+  position: relative;
+  z-index: 1000;
+}
+.titleStaff video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.titleStaff .opacidadStaff {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(24, 24, 24);
+  opacity: 0.5;
+}
+.titleStaff div {
+  position: absolute;
+  padding-left: 10%;
+}
+.titleStaff div h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+.titleStaff div p {
+  color: white;
+  font-size: 20px;
+}
+
+.gridEquipo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "objeto1 objeto2 objeto3 objeto4";
+  gap: 10px 10px;
+  justify-items: center;
+}
+.gridEquipo div {
+  height: 500px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+}
+.gridEquipo div img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gridEquipo div .igBlanco {
+  display: none;
+}
+.gridEquipo div .igBlanco img {
+  width: 40px;
+  height: 40px;
+}
+.gridEquipo div .opaco2 {
+  position: absolute;
+  transition: 1s;
+}
+.gridEquipo div:hover .opaco2 {
+  background-color: rgba(24, 24, 24, 0.5);
+}
+.gridEquipo div:hover p {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  z-index: 1001;
+  font-weight: bold;
+}
+.gridEquipo div:hover .igBlanco {
+  display: grid;
+  justify-items: center;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 1001;
+}
+
+.estiloContacto {
+  margin: 200px 0;
+  justify-content: center;
+}
+
+.estiloContacto2 {
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.divContacto {
+  height: 800px;
+  width: 500px;
+  background-color: rgb(219, 201, 143);
+  margin: 0 10px;
+  border-radius: 30px;
+}
+
+.formEstilo {
+  font-size: 20px;
+  background-color: #ffe5bc;
+  font-weight: bold;
+  padding: 20px 20px;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.estiloContacto .estiloFormulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.estiloContacto .estiloFormulario form {
+  padding: 25px 30px;
+  box-shadow: 0 0 20px rgba(101, 11, 11, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  height: 670px;
+  width: 340px;
+  background-color: #ffe5bc;
+}
+.estiloContacto .estiloFormulario form h2 {
+  color: #283629;
+  font-size: 35px;
+}
+.estiloContacto .estiloFormulario form .estiloContacto .estiloFormulario form fieldset {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.estiloContacto .estiloFormulario form .estiloContacto .estiloFormulario form fieldset p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.estiloContacto .estiloFormulario form .estiloContacto .estiloFormulario form fieldset p label {
+  color: #3a843f;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.estiloContacto .estiloFormulario form fieldset input, .estiloContacto .estiloFormulario form fieldset textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  background-color: #662020;
+  border: 2px solid #891010;
+  color: #1e8525;
+  outline: none;
+}
+
+.estiloContacto .estiloFormulario form fieldset .politicas {
+  display: flex;
+}
+.estiloContacto .estiloFormulario form fieldset .politicas label {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.estiloContacto .estiloFormulario form fieldset input::placeholder, .estiloContacto .estiloFormulario form fieldset textarea::placeholder {
+  color: #363428;
+}
+
+.estiloContacto .estiloFormulario form fieldset .botonForm input {
+  width: 100%;
+  font-size: 16px;
+  color: #0d0c0c;
+  border: 0;
+  border-radius: 25px;
+  background-color: #111110;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.4);
+}
+
+.estiloContacto .estiloTelefono {
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 800px;
+  width: 350px;
+  background-color: #ffe5bc;
+}
+.estiloContacto .estiloTelefono div {
+  margin-bottom: 10px;
+}
+.estiloContacto .estiloTelefono div img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.estiloContacto .estiloTelefono div p {
+  font-size: 15px;
+}
+.estiloContacto .estiloTelefono div p span {
+  font-weight: 500;
+}
+
+.estiloContacto .estiloTelefono div a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.estiloContacto .estiloTelefono .abc {
+  display: flex;
+}
+
+.estiloContacto .estiloTelefono .gif {
+  width: 100%;
+  margin: 25px 0;
+  object-fit: cover;
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footerItems {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footerInf {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 1024px) {
-  .gridMainTienda .gridTiendaMenu {
+  .gridTiendaMenu {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  .gridTienda {
-    grid-template-rows: 100px 3fr 350px;
-  }
   .gridTiendaMenu {
     grid-template-columns: 1fr;
     grid-template-rows: 75px 75px 1fr;
     grid-template-areas: "catalogo" "filtro" "productos";
   }
-  .catalogo {
+  .gridTiendaMenu .catalogo {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "catalogoItem1 catalogoItem1";
     background-color: green;
   }
-  .catalogoItem2 {
+  .gridTiendaMenu .catalogo .catalogoItem2 {
     display: none;
-    color: black;
   }
   .filtro {
     grid-template-columns: 1fr 1fr;
@@ -588,7 +692,7 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .gridTiendaMenu {
     grid-template-rows: 75px 90px 1fr;
   }
@@ -600,291 +704,37 @@ section{
     grid-template-columns: 1fr;
   }
 }
-
-/* pagian "Nosotros" */
-
-.mainInf{
-  margin: 50px 0;
-}
-
-.infSection{
-  display: flex;
-  justify-content: center;
-  padding-right: 0;
-  padding-left: 0;
-  margin-top: 0;
-}
-
-
-.infText{
-  background-color: #d2d2d2;
-  width: 500px;
-  height: 500px;
-  padding: 50px;
-  font-size: 14px;
-}
-
-.infText h2{
-  font-size: 25px;
-}
-
-.mapa{
-  width: 500px;
-  height: 500px;
-}
-
-
-/* pagina "staff" */
-
-.titleStaff {
-    height: 400px;
-    width: 100%;
-    display: grid;
-    align-items: end;
-    position: relative;
-    z-index: 1000;
-}
-
-.titleStaff video {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-}
-
-.opacidadStaff {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(24, 24, 24);
-    opacity: 0.5;
-/*     mix-blend-mode: overlay; */
-}
-
-.titleStaff div {
-    position: absolute;
-    padding-left: 10%;
-}
-
-.titleStaff div h1 {
-  color: white;
-  font-weight: 600;
-  font-size: 40px;
-}
-
-.titleStaff div p {
-  color: white;
-  font-size: 20px;
-}
-
-.gridEquipo{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-  "objeto1 objeto2 objeto3 objeto4";
-
-  gap: 10px 10px;
-  justify-items: center;
-}
-.objeto1{
-  grid-area: objeto1;
-}
-.objeto2{
-  grid-area: objeto2;
-}
-.objeto3{
-  grid-area: objeto3;
-}
-.objeto4{
-  grid-area: objeto4;
-}
-
-.gridEquipo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.gridEquipo div {
-  height: 500px;
-  width: 100%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  position: relative;
-  z-index: 1000;
-}
-
-.gridEquipo div img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.gridEquipo div .igBlanco {
-  display: none;
-}
-
-.gridEquipo div .igBlanco img {
-  width: 40px;
-  height: 40px;
-}
-
-.gridEquipo div .opaco2 {
-  position: absolute;
-  transition: 1s;
-}
-
-.gridEquipo div:hover .opaco2 {
-  background-color: rgba(24, 24, 24, 0.5);
-  animation-name: vetOpaco2;
-}
-
-.gridEquipo div:hover p {
-  position: absolute;
-  color: white;
-  font-size: 20px;
-  z-index: 1001;
-  font-weight: bold;
-}
-
-.gridEquipo div:hover .igBlanco {
-  display: grid;
-  justify-items: center;
-  margin-top: 20px;
-  position: absolute;
-  z-index: 1001;
-}
-
-/* pagina "contacto" */
-
-.estiloContacto{
-    margin: 200px 0;
-    justify-content: center;
-}
-.estiloContacto2{
-    display: inline-block;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
-.divContacto{
-    height: 800px;
-    width: 500px;
-    background-color: rgb(169, 160, 160);
-}
-
-.formEstilo{
-    font-size: 20px;
-    background-color: #d8d4d0;
-    font-weight: bold;
-    padding: 20px 20px;
-    margin-bottom: 0;
-    width: 100%;
-}
-.estiloContacto {
-    margin: 100px 0;
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 992px) {
+  .gridEquipo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+    grid-template-areas: "objeto1 objeto2" "inf1 inf2" "objeto3 objeto4" "inf3 inf4";
+    height: auto;
+    width: auto;
   }
-  .estiloContacto .estiloFormulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .gridEquipo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "objeto1 " "objeto2 " "objeto3" "objeto4";
+    height: auto;
+    width: auto;
   }
-  .estiloContacto .estiloFormulario form {
-    padding: 25px 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    text-align: center;
-    height: 670px;
-    width: 340px;
-    background-color: #705e41;
+}
+@media screen and (max-width: 992px) {
+  .gridNosotros {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 3fr 0.75fr;
+    grid-template-areas: "header" "main" "footer";
   }
-  .estiloContacto .estiloFormulario form h2 {
-    color: #283629;
-    font-size: 35px;
+}
+@media screen and (max-width: 768px) {
+  .gridNosotros {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 3fr 0.75fr;
+    grid-template-areas: "header" "main" "footer";
   }
-  .estiloContacto .estiloFormulario form fieldset {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  .estiloContacto .estiloFormulario form fieldset p {
-    font-size: 15px;
-    font-weight: 500;
-  }
-  .estiloContacto .estiloFormulario form fieldset label {
-    color: #283629;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  .estiloContacto .estiloFormulario form fieldset input, .estiloContacto .estiloFormulario form fieldset textarea {
-    padding: 17px 25px;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    background-color: #0c0c0c;
-    border: 2px solid #090909;
-    color: #283629;
-    outline: none;
-  }
-  .estiloContacto .estiloFormulario form fieldset .politicas {
-    display: flex;
-  }
-  .estiloContacto .estiloFormulario form fieldset .politicas label {
-    font-size: 10px;
-    margin-right: 5px;
-  }
-  .estiloContacto .estiloFormulario form fieldset input::placeholder, .estiloContacto .estiloFormulario form fieldset textarea::placeholder {
-    color: #363428;
-  }
-  .estiloContacto .estiloFormulario form fieldset .botonForm input {
-    width: 100%;
-    font-size: 16px;
-    color: #0d0c0c;
-    border: 0;
-    border-radius: 25px;
-    background-color: #131312;
-    box-shadow: 0 0 20px rgba(3, 3, 3, 0.4);
-  }
-  .estiloContacto .estiloTelefono {
-    padding: 40px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    height: 670px;
-    width: 340px;
-    background-color: #bcb7b7;
-  }
-  .estiloContacto .estiloTelefono div {
-    margin-bottom: 10px;
-  }
-  .estiloContacto .estiloTelefono div img {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-  }
-  .estiloContacto .estiloTelefono div p {
-    font-size: 15px;
-  }
-  .estiloContacto .estiloTelefono div p span {
-    font-weight: 500;
-  }
-  .estiloContacto .estiloTelefono div a {
-    text-decoration: none;
-    font-size: 15px;
-  }
-  .estiloContacto .estiloTelefono .abc {
-    display: flex;
-  }
-  .estiloContacto .estiloTelefono .gif {
-    width: 100%;
-    margin: 25px 0;
-    object-fit: cover;
-    transform: rotateY(180deg);
-  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

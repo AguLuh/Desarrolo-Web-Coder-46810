@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En nuestra Tienda de PCBUY puedes comprar los siguientes productos pc gamer, consolas, monitores">
     <title>Tienda en Línea</title>
     <link rel="icon" type="image/jpg" href="../img/favicon.ico"/>
     <style>
@@ -11,222 +12,220 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-<header>
-        <header class="menuTop">
-            <nav class="navbar navbar-expand-lg menu container-fluid">
-                    <div class="logo">
-                        <a class="navbar-brand texto" href="index.html">
-                            <img src="../img/logo.png" alt="logoVETDOG512x512" title="logoVETDOG512x512">
-                        </a>
-                        <a class="navbar-brand texto" href="index.html">PCBUY</a>
-                    </div>
-                    <div class="botonn">
-                        <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse menu3" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item texto">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item texto">
-                                <a class="nav-link active" aria-current="page" href="./Tienda.html">Tienda</a>
-                            </li>
-                            <li class="nav-item texto">
-                                <a class="nav-link active" aria-current="page" href="./Sobre_Nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item texto">
-                                <a class="nav-link active" aria-current="page" href="./Staff.html">Staff</a>
-                            </li>
-                            <li class="nav-item texto">
-                                <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
-                            </li>
-                        </ul>
+    <header class="menuTop">
+        <nav class="navbar navbar-expand-lg menu container-fluid">
+            <div class="logo">
+                <a class="navbar-brand texto" href="../index.html">
+                    <img src="../img/logo.png" alt="logo empresa" title="logo empresa">
+                </a>
+                    <a class="navbar-brand texto" href="../index.html">PCBUY</a>
+                </div>
+                <div class="botonMenu texto">
+                    <button class="navbar-toggler boton botonEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse menu3" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item texto">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item texto">
+                            <a class="nav-link active" aria-current="page" href="./Tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item texto">
+                            <a class="nav-link active" aria-current="page" href="./Sobre_Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item texto">
+                            <a class="nav-link active" aria-current="page" href="./Staff.html">Staff</a>
+                        </li>
+                        <li class="nav-item texto">
+                            <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="gridMainTienda">
+        <div class="gridTiendaMenu">
+            <div class="catalogo">
+                <div class="catalogoItem1">
+                    <div class="subtituloEstilo">
+                        <div>
+                            CATALOGO
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-</header>
-<main class="gridMainTienda">
-    <div class="gridTiendaMenu">
-        <div class="catalogo">
-            <div class="catalogoItem1">
+                <div class="catalogoItem2">
+                    <ul>
+                        <li>Ordenadores</li>
+                        <li>Consolas</li>
+                        <li>Notebook</li>
+                        <li>Accesorios</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="filtro estiloTienda">
                 <div class="subtituloEstilo">
                     <div>
-                        CATALOGO
+                        TODOS LOS PRODUCTOS
                     </div>
                 </div>
-            </div>
-            <div class="catalogoItem2">
-                <ul>
-                    <li>Ordenadores</li>
-                    <li>Consolas</li>
-                    <li>Notebook</li>
-                    <li>Accesorios</li>
-                </ul>
-            </div>
-        </div>
-        <div class="filtro estiloTienda">
-            <div class="subtituloEstilo">
-                <div>
-                    TODOS LOS PRODUCTOS
+                <div class="subtituloEstilo filtroSelect">
+                    <div>
+                        FILTRO:
+                    </div>
+                    <select name="filtro" id="">
+                        <option value="recomendados">Recomendados</option>
+                        <option value="recientes">Recientes</option>
+                        <option value="categoria">Categoría</option>
+                        <option value="menor">Menor precio</option>
+                        <option value="mayor">Mayor precio</option>
+                    </select>
                 </div>
             </div>
-            <div class="subtituloEstilo filtroSelect">
-                <div>
-                    FILTRO:
+            <div class="productos productosGrid">
+                <div class="productosEstilo producto1">
+                        <img src="../img/equipo_armado-1.jpg" alt="Imagen de pc basico de color negro">
+                        <h2>
+                            Ordenador 1
+                        </h2>
+                    </a>
+                    <p>
+                        US$ 50
+                    </p>
                 </div>
-                <select name="filtro" id="">
-                    <option value="recomendados">Recomendados</option>
-                    <option value="recientes">Recientes</option>
-                    <option value="categoria">Categoría</option>
-                    <option value="menor">Menor precio</option>
-                    <option value="mayor">Mayor precio</option>
-                </select>
-            </div>
-        </div>
-        <div class="productos productosGrid">
-            <div class="productosEstilo producto1">
-                    <img src="../img/equipo_armado-1.jpg" alt="">
+                <div class="productosEstilo">
+                    <img src="../img/equipo_armado-2.jpg" alt="Imagen de pc gamer gamma media de color negro">
                     <h2>
-                        Ordenador 1
+                        Ordenador 2
                     </h2>
-                </a>
-                <p>
-                    US$ 50
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/equipo_armado-2.jpg" alt="">
-                <h2>
-                    Ordenador 2
-                </h2>
-                <p>
-                    US$ 42.75
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/equipo_armado-3.jpg" alt="">
-                <h2>
-                    Ordenador 3
-                </h2>
-                <p>
-                    US$ 67.20
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/notebook-1.jpg" alt="">
-                <h2>
-                    Notebook 1
-                </h2>
-                <p>
-                    US$ 23.90
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/notebook-2.jpg" alt="">
-                <h2>
-                    Notebook 2
-                </h2>
-                <p>
-                    US$ 50.15
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/notebook-3.jpg" alt="">
-                <h2>
-                    Notebook 3 
-                </h2>
-                <p>
-                    US$ 29.80
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/consolas-1.jpg" alt="">
-                <h2>
-                    Consola 1
-                </h2>
-                <p>
-                    US$ 65.10
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/consolas-2.jpg" alt="">
-                <h2>
-                    Consola 2
-                </h2>
-                <p>
-                    US$ 21.45
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/consolas-3.jpg" alt="">
-                <h2>
-                    Consola 3
-                </h2>
-                <p>
-                    US$ 59.30
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/monitores-1.jpg" alt="">
-                <h2>
-                    Monitor 1
-                </h2>
-                <p>
-                    US$ 27.60
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/monitores-2.jpg" alt="">
-                <h2>
-                    Monitor 2
-                </h2>
-                <p>
-                    US$ 44.90
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/monitores-3.jpg" alt="">
-                <h2>
-                    Monitor 3
-                </h2>
-                <p>
-                    US$ 63.25
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/perifericos-1.jpg" alt="">
-                <h2>
-                    Periferico 1
-                </h2>
-                <p>
-                    US$ 22.70
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/perifericos-2.jpg" alt="">
-                <h2>
-                    Periferico 2
-                </h2>
-                <p>
-                    US$ 54.80
-                </p>
-            </div>
-            <div class="productosEstilo">
-                <img src="../img/perifericos-3.jpg" alt="">
-                <h2>
-                    Periferico 3
-                </h2>
-                <p>
-                    US$ 31.15
-                </p>
-            </div>
+                    <p>
+                        US$ 42.75
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/equipo_armado-3.jpg" alt="Imagen de pc gamer gamma alta de color blanco">
+                    <h2>
+                        Ordenador 3
+                    </h2>
+                    <p>
+                        US$ 67.20
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/notebook-1.jpg" alt="imagen de notebook tuf gaming color negro">
+                    <h2>
+                        Notebook 1
+                    </h2>
+                    <p>
+                        US$ 23.90
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/notebook-2.jpg" alt="imagen de notebook msi color negro">
+                    <h2>
+                        Notebook 2
+                    </h2>
+                    <p>
+                        US$ 50.15
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/notebook-3.jpg" alt="imagen de notebook asus oled">
+                    <h2>
+                        Notebook 3 
+                    </h2>
+                    <p>
+                        US$ 29.80
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/consolas-1.jpg" alt="imagen de consola switch classic">
+                    <h2>
+                        Consola 1
+                    </h2>
+                    <p>
+                        US$ 65.10
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/consolas-2.jpg" alt="imagen de consola play station 5 color blanco">
+                    <h2>
+                        Consola 2
+                    </h2>
+                    <p>
+                        US$ 21.45
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/consolas-3.jpg" alt="imagen de consola xbox series x color negro">
+                    <h2>
+                        Consola 3
+                    </h2>
+                    <p>
+                        US$ 59.30
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/monitores-1.jpg" alt="imagen de monitor gamma baja viewsonic color negro">
+                    <h2>
+                        Monitor 1
+                    </h2>
+                    <p>
+                        US$ 27.60
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/monitores-2.jpg" alt="imagen de monitor gamma media gigabyte color negro">
+                    <h2>
+                        Monitor 2
+                    </h2>
+                    <p>
+                        US$ 44.90
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/monitores-3.jpg" alt="imagen de monitor gamma alta gm34-cw color negro">
+                    <h2>
+                        Monitor 3
+                    </h2>
+                    <p>
+                        US$ 63.25
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/perifericos-1.jpg" alt="imagen de teclado negro con rgb">
+                    <h2>
+                        Periferico 1
+                    </h2>
+                    <p>
+                        US$ 22.70
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/perifericos-2.jpg" alt="imagen de mouse blanco inalambrico">
+                    <h2>
+                        Periferico 2
+                    </h2>
+                    <p>
+                        US$ 54.80
+                    </p>
+                </div>
+                <div class="productosEstilo">
+                    <img src="../img/perifericos-3.jpg" alt="imagen de auriculares con microfono y rgb de color negro">
+                    <h2>
+                        Periferico 3
+                    </h2>
+                    <p>
+                        US$ 31.15
+                    </p>
+                </div>
+                </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
     <footer class="footerStyle">
         <div class="footerItems">
             <div class="footerImg">
@@ -237,13 +236,13 @@
                 </div>
                 <ul class="socialNet">
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank"><img class="specialSize" src="../img/facebook.png" alt="">
+                        <a href="https://www.facebook.com/" target="_blank"><img class="specialSize" src="../img/facebook.png" alt="logo de facebook">
                     </li>
                     <li>
-                        <a href="https://twitter.com/home?lang=es" target="_blank"><img class="specialSize" src="../img/gorjeo.png" alt="">
+                        <a href="https://twitter.com/home?lang=es" target="_blank"><img class="specialSize" src="../img/gorjeo.png" alt="logo de twitter">
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/" target="_blank"><img class="specialSize" src="../img/instagram.png"  alt="">
+                        <a href="https://www.instagram.com/" target="_blank"><img class="specialSize" src="../img/instagram.png"  alt="logo de instagram">
                     </li>
 
                 </ul>
@@ -294,13 +293,13 @@
         <div class="payment">
             <ul>
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank"><img class="specialSize" src="../img/facebook.png" alt="">
+                    <a href="https://www.facebook.com/" target="_blank"><img class="specialSize" src="../img/facebook.png" alt="logo de facebook">
                 </li>
                 <li>
-                    <a href="https://twitter.com/home?lang=es" target="_blank"><img class="specialSize" src="../img/gorjeo.png" alt="">
+                    <a href="https://twitter.com/home?lang=es" target="_blank"><img class="specialSize" src="../img/gorjeo.png" alt="logo de twitter">
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="specialSize" src="../img/instagram.png"  alt="">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="specialSize" src="../img/instagram.png"  alt="logo de instagram">
                 </li>
             </ul>
         </div>
